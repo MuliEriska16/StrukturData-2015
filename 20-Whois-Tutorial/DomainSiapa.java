@@ -13,7 +13,7 @@ public class DomainSiapa {
     public void whois(String namaDomain) 
                 throws UnknownHostException, IOException {
         // 0. Buka socket
-        koneksi = new Socket("whois.pandi.or.id", 43);
+        koneksi = new Socket("unsyiah.ac.id", 80);
 
         // Kirim perintah untuk informasi namaDomain
         kirimPerintah(namaDomain);

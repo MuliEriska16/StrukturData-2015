@@ -13,7 +13,7 @@ public class Chat {
     public void whois(String namaDomain) 
                 throws UnknownHostException, IOException {
         // 0. Buka socket
-        koneksi = new Socket("unsyiah.ac.id",80);
+        koneksi = new Socket("google.co.id", 80);
 
         // Kirim perintah untuk informasi namaDomain
         kirimPerintah(namaDomain);

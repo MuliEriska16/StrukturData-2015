@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Client {
     public void chat() 
                 throws UnknownHostException, IOException {
-        Socket socket = new Socket("192.168.43.191", 33333);
+        Socket socket = new Socket("127.0.0.1", 33333);
         
         try {
             // Ketik
